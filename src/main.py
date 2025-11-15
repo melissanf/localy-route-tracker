@@ -32,7 +32,7 @@ def main():
     for img_path in images:
         exif = lire_exif(img_path)
         gps_brut = extraire_gps_brut(exif)
-        coords = convertir_gps(gps_brut) if gps_brut else None
+        coords = convertir_gps(gps_brut) if gps_brut else None 
 
         if coords:
             lat, lon = coords
