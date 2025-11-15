@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_2bf460c2de9116a38e5425cea7698452 {
+                #map_49a69ac77155d3f13066bf3f6ee15f05 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,19 +54,19 @@
 <body>
     
     
-            <div class="folium-map" id="map_2bf460c2de9116a38e5425cea7698452" ></div>
+            <div class="folium-map" id="map_49a69ac77155d3f13066bf3f6ee15f05" ></div>
         
 </body>
 <script>
     
     
-            var map_2bf460c2de9116a38e5425cea7698452 = L.map(
-                "map_2bf460c2de9116a38e5425cea7698452",
+            var map_49a69ac77155d3f13066bf3f6ee15f05 = L.map(
+                "map_49a69ac77155d3f13066bf3f6ee15f05",
                 {
                     center: [36.683055555555555, 2.882836111111111],
                     crs: L.CRS.EPSG3857,
                     ...{
-  "zoom": 16,
+  "zoom": 14,
   "zoomControl": true,
   "preferCanvas": false,
 }
@@ -78,7 +78,7 @@
 
         
     
-            var tile_layer_4631b8e72e29d2f42574c1a9c024d4d0 = L.tileLayer(
+            var tile_layer_f33f754e1c4033afe84dc860ab9356b4 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -95,17 +95,17 @@
             );
         
     
-            tile_layer_4631b8e72e29d2f42574c1a9c024d4d0.addTo(map_2bf460c2de9116a38e5425cea7698452);
+            tile_layer_f33f754e1c4033afe84dc860ab9356b4.addTo(map_49a69ac77155d3f13066bf3f6ee15f05);
         
     
-            var marker_b35b6fb1faee4e380c8a151ba6c945ad = L.marker(
+            var marker_fd6d9cecddfee89e50f569944d33e853 = L.marker(
                 [36.683055555555555, 2.882836111111111],
                 {
 }
-            ).addTo(map_2bf460c2de9116a38e5425cea7698452);
+            ).addTo(map_49a69ac77155d3f13066bf3f6ee15f05);
         
     
-            var icon_3fe12ded473c2d4fa5494489536965e0 = L.AwesomeMarkers.icon(
+            var icon_0ef5243d2c092ba2cdb8e30b7a5c74ba = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -116,9 +116,26 @@
             );
         
     
-            marker_b35b6fb1faee4e380c8a151ba6c945ad.bindTooltip(
+        var popup_50bb90d9cbd9e6afde33f68dfbe3278c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2450d024b892fa8c76790f187b8a8df3 = $(`<div id="html_2450d024b892fa8c76790f187b8a8df3" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif;">             <b>Point 1</b><br>             <small>photo22.jpg</small><br>             <small>📅 12/11/2025 12:41</small>         </div>         </div>`)[0];
+                popup_50bb90d9cbd9e6afde33f68dfbe3278c.setContent(html_2450d024b892fa8c76790f187b8a8df3);
+            
+        
+
+        marker_fd6d9cecddfee89e50f569944d33e853.bindPopup(popup_50bb90d9cbd9e6afde33f68dfbe3278c)
+        ;
+
+        
+    
+    
+            marker_fd6d9cecddfee89e50f569944d33e853.bindTooltip(
                 `<div>
-                     Start: aa.jpg
+                     Départ: photo22.jpg
                  </div>`,
                 {
   "sticky": true,
@@ -126,17 +143,17 @@
             );
         
     
-                marker_b35b6fb1faee4e380c8a151ba6c945ad.setIcon(icon_3fe12ded473c2d4fa5494489536965e0);
+                marker_fd6d9cecddfee89e50f569944d33e853.setIcon(icon_0ef5243d2c092ba2cdb8e30b7a5c74ba);
             
     
-            var marker_23459d1683b6ed004c5ad3d6f9c0f04b = L.marker(
+            var marker_152050fb8dba5e14718c9a5e7db9645c = L.marker(
                 [36.683055555555555, 2.882836111111111],
                 {
 }
-            ).addTo(map_2bf460c2de9116a38e5425cea7698452);
+            ).addTo(map_49a69ac77155d3f13066bf3f6ee15f05);
         
     
-            var icon_bfca59e9df2253c3791e2ff549bbae32 = L.AwesomeMarkers.icon(
+            var icon_08faa220423d4f1711a10a7a85aff9ea = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -147,9 +164,26 @@
             );
         
     
-            marker_23459d1683b6ed004c5ad3d6f9c0f04b.bindTooltip(
+        var popup_268e670fe6ab11274934e5efaeaef445 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8808f4958c41d4ced89308ead7804d7d = $(`<div id="html_8808f4958c41d4ced89308ead7804d7d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif;">             <b>Point 2</b><br>             <small>photo11.jpg</small><br>             <small>📅 12/11/2025 15:30</small>         </div>         </div>`)[0];
+                popup_268e670fe6ab11274934e5efaeaef445.setContent(html_8808f4958c41d4ced89308ead7804d7d);
+            
+        
+
+        marker_152050fb8dba5e14718c9a5e7db9645c.bindPopup(popup_268e670fe6ab11274934e5efaeaef445)
+        ;
+
+        
+    
+    
+            marker_152050fb8dba5e14718c9a5e7db9645c.bindTooltip(
                 `<div>
-                     qq.jpg
+                     Point 2: photo11.jpg
                  </div>`,
                 {
   "sticky": true,
@@ -157,17 +191,17 @@
             );
         
     
-                marker_23459d1683b6ed004c5ad3d6f9c0f04b.setIcon(icon_bfca59e9df2253c3791e2ff549bbae32);
+                marker_152050fb8dba5e14718c9a5e7db9645c.setIcon(icon_08faa220423d4f1711a10a7a85aff9ea);
             
     
-            var marker_9939f77f7d65a57e0ce0b77ae888fdef = L.marker(
+            var marker_fb9116065dbcc2778448a1e2aea13f8b = L.marker(
                 [36.683055555555555, 2.882836111111111],
                 {
 }
-            ).addTo(map_2bf460c2de9116a38e5425cea7698452);
+            ).addTo(map_49a69ac77155d3f13066bf3f6ee15f05);
         
     
-            var icon_217fe1a3a1adb08b2c99dfd89eefc1ae = L.AwesomeMarkers.icon(
+            var icon_0dcbac55edd051770785d975d718668d = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -178,9 +212,26 @@
             );
         
     
-            marker_9939f77f7d65a57e0ce0b77ae888fdef.bindTooltip(
+        var popup_19e23456d1cc8de952fb4174b7d59e5c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b120740c685217df4f8679e36bb39fde = $(`<div id="html_b120740c685217df4f8679e36bb39fde" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif;">             <b>Point 3</b><br>             <small>photo33.jpg</small><br>             <small>📅 12/11/2025 15:40</small>         </div>         </div>`)[0];
+                popup_19e23456d1cc8de952fb4174b7d59e5c.setContent(html_b120740c685217df4f8679e36bb39fde);
+            
+        
+
+        marker_fb9116065dbcc2778448a1e2aea13f8b.bindPopup(popup_19e23456d1cc8de952fb4174b7d59e5c)
+        ;
+
+        
+    
+    
+            marker_fb9116065dbcc2778448a1e2aea13f8b.bindTooltip(
                 `<div>
-                     End: zz.jpg
+                     Arrivée: photo33.jpg
                  </div>`,
                 {
   "sticky": true,
@@ -188,16 +239,16 @@
             );
         
     
-                marker_9939f77f7d65a57e0ce0b77ae888fdef.setIcon(icon_217fe1a3a1adb08b2c99dfd89eefc1ae);
+                marker_fb9116065dbcc2778448a1e2aea13f8b.setIcon(icon_0dcbac55edd051770785d975d718668d);
             
     
-            var poly_line_077bc751f6c90bbabd0334d414246c48 = L.polyline(
+            var poly_line_a30d10da900c4bdd1add5c9127082c14 = L.polyline(
                 [[36.683055555555555, 2.882836111111111], [36.683055555555555, 2.882836111111111], [36.683055555555555, 2.882836111111111]],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
-            ).addTo(map_2bf460c2de9116a38e5425cea7698452);
+                {"bubblingMouseEvents": true, "color": "#173DED", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#173DED", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_49a69ac77155d3f13066bf3f6ee15f05);
         
     
-            map_2bf460c2de9116a38e5425cea7698452.fitBounds(
+            map_49a69ac77155d3f13066bf3f6ee15f05.fitBounds(
                 [[36.683055555555555, 2.882836111111111], [36.683055555555555, 2.882836111111111], [36.683055555555555, 2.882836111111111]],
                 {}
             );

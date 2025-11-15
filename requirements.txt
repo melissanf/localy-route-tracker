@@ -1,0 +1,4 @@
+customtkinter==5.2.2
+Pillow>=10.0.0
+folium>=0.14.0
+tkinterweb>=3.16.0
